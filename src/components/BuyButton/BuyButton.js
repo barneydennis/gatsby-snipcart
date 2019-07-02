@@ -22,7 +22,7 @@ class BuyButton extends React.Component {
                     data-item-price={item.frontmatter.price}
                     data-item-name={item.frontmatter.title}
                     data-item-description={item.frontmatter.description}
-                    data-item-url={"https://gatsby-snipcart-demo.netlify.com" + item.fields.slug}>
+                    data-item-url={"https://gatsby-snipcart-starter.netlify.com" + item.fields.slug}>
                     Add to basket
         </BuyButton>
             </BuyButtonStyled>
